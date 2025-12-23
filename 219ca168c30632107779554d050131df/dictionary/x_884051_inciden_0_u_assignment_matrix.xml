@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="78ecc134c3ce72107779554d05013173" label="u_assignment_matrix" max_length="40" name="x_884051_inciden_0_u_assignment_matrix" type="collection">
+        <element label="Priority" max_length="40" name="u_priority" type="integer"/>
+        <element label="Group" max_length="32" name="u_group" reference="sys_user_group" type="reference"/>
+        <element label="Category" max_length="40" name="u_category" type="string"/>
+        <index name="index">
+            <element name="u_group"/>
+        </index>
+    </element>
+</database>
